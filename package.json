@@ -1,0 +1,20 @@
+{
+    "name": "hapi-web-server",
+    "version": "1.0.0",
+    "description": "web server  using framework hapi",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DandiLesmana25/hapi-web-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DandiLesmana25/hapi-web-server/issues"
+    },
+    "homepage": "https://github.com/DandiLesmana25/hapi-web-server#readme"
+}
