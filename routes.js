@@ -1,6 +1,6 @@
 // route configuration
 
-// * = route dapat diakses menggunakan seluruh method HTTP. 
+// method * = route dapat diakses menggunakan seluruh method HTTP. 
 
 const routes = [{
         method: 'GET',
@@ -33,9 +33,18 @@ const routes = [{
 
     {
         method: 'GET',
-        path: '/hello/{name?}',
+        path: '/hello/{name?}', //path/parameter
         handler: (request, h) => {
             const { name = "stranger" } = request.params;
+            const { lang } = request.query;
+
+            if (lang === "id") {
+                return `hai, ${name}!`;
+            }
+
+
+
+
             return `Hello, ${name}!`;
 
         }
