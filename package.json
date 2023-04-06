@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/DandiLesmana25/hapi-web-server/issues"
     },
-    "homepage": "https://github.com/DandiLesmana25/hapi-web-server#readme"
+    "homepage": "https://github.com/DandiLesmana25/hapi-web-server#readme",
+    "dependencies": {
+        "@hapi/hapi": "^21.3.1"
+    }
 }
